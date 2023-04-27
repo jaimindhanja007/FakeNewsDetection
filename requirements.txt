@@ -9,5 +9,4 @@ lxml==4.9.2
 nltk==3.8.1
 pandas==0.20.3
 Pyrebase==3.0.27
-regex==2023.3.23
-scikit-learn==1.2.2
+scikit-learn==1.0.1
