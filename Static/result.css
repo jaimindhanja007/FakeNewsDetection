@@ -1,0 +1,56 @@
+html,
+body {
+    height: 100%;
+}
+
+/* Set the background color */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Set the height of the header */
+header {
+    height: 70px;
+}
+
+/* Set the height of the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 21rem;
+}
+
+/* Center the result box */
+.result-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+/* Set the style of the social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: #6c757d;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #212529;
+}

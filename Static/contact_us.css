@@ -1,0 +1,66 @@
+header {
+  height: 70px;
+}
+
+/* Contact Form */
+form {
+  margin-top: 30px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #3F72AF;
+  box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
+}
+
+textarea.form-control {
+  height: 150px;
+}
+
+.btn-primary {
+  background-color: #112D4E;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #264d7c;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #4e7db6;
+  box-shadow: none;
+}
+
+.btn-primary:disabled {
+  background-color: #d1d1d1;
+  cursor: not-allowed;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 19rem;
+}
